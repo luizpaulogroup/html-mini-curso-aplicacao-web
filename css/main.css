@@ -1,18 +1,21 @@
-
 /* # é pra pegar o id  */
+
+
 /* . é pra pegar o class  */
 
-.conteudo{
+.conteudo {
     margin-top: 100px !important;
     margin-bottom: 100px !important;
-    max-width: 1024px;/* largura pode ser até 720 */        
+    max-width: 1024px;
+    /* largura pode ser até 720 */
     margin: auto;
 }
 
-.conteudo p{
+.conteudo p {
     color: #6A6E81;
     font-size: 18px;
 }
+
 
 /* 
 bg-danger 
@@ -20,8 +23,7 @@ d-flex = linha
 flex-column 
 justify-content-center */
 
-
-.button{
+.button {
     background-color: #FF7A00;
     color: white;
     width: 100%;
@@ -32,6 +34,18 @@ justify-content-center */
     cursor: pointer;
 }
 
-.image{
+.image {
     width: 60%;
+}
+
+#rodape .links {
+    display: flex;
+    flex-direction: column;
+}
+
+#rodape .links .link {
+    text-decoration: none;
+    color: #161616;
+    font-size: 12px;
+    margin: 8px 0px;
 }
